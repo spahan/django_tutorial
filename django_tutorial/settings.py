@@ -75,8 +75,11 @@ WSGI_APPLICATION = 'django_tutorial.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'wsym_django_001_its_unibas_ch_01',
+        'USER': 'wsym_django_001_its_unibas_ch_01',
+        'PASSWORD': '4rdux6hgDHVQqAbk::rq',
+        'HOST': 'its-web-sql-011.its.unibas.ch'
     }
 }
 
