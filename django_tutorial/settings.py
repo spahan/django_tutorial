@@ -25,7 +25,7 @@ SECRET_KEY = '$lryywe8638_r8wm1bu!eom_v6%orbx)ic-t894hv%88lu*5q8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wsym-django-001.its.unibas.ch']
 
 
 # Application definition
